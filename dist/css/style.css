@@ -66,3 +66,16 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+.subpage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 1;
+  margin-left: -50px;
+}
+
+fieldset {
+  margin-left: +100px;
+  margin-right: 100px;
+}
