@@ -88,7 +88,13 @@ fieldset {
 legend {
   padding: 2px 4px;
   background: #fff;
-  /* For better legibility against the box-shadow */
+}
+
+.legend {
+  width: 300;
+  height: 400;
+  border: solid 3px white;
+  text-align: center;
 }
 fieldset > legend {
   float: left;
@@ -102,5 +108,13 @@ p,
 h2 {
   color: white;
   font: italic 1.2em "Fira Sans", serif;
+  text-align: center;
+}
+
+.introduction {
+  border: solid 3px black;
+  border-radius: 8px;
+}
+.image {
   text-align: center;
 }
