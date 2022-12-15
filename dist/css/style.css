@@ -128,6 +128,15 @@ h2 {
 }
 .image {
   text-align: center;
+  justify-content: center;
+}
+
+.imageM {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 30px;
 }
 
 body {
