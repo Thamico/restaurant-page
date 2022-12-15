@@ -1,5 +1,6 @@
 import generateHome from "./generateHome";
 import generateMenu from "./generateMenu";
+import generateContact from "./generateContact";
 
 generateHome();
 
@@ -10,7 +11,7 @@ function clearContent() {
 const content = document.querySelector("#content");
 const homeBtn = document.querySelector("#homeBtn");
 const menuBtn = document.querySelector("#menuBtn");
-const contactBtn = document.querySelector("#contact-btn");
+const contactBtn = document.querySelector("#contactBtn");
 
 homeBtn.addEventListener("click", () => {
   clearContent();
